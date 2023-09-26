@@ -31,3 +31,8 @@ git remote add origin https://github.com/ВашЛогинНаГитхаб/GitNam
 git branch -M main
 ## Перенести локальный репозиторий
 git push -u origin main
+## Продолжим работать с .gitignore:
+touch .gitignore
+# Добавляем в файл правила игнорирования по примеру выше
+git add .gitignore
+git commit -m 'update gitignore'
